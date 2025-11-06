@@ -81,14 +81,14 @@ const CodeGate = () => {
             id="gate-heading"
             className="text-2xl md:text-3xl font-bold text-center mb-6 text-foreground"
           >
-            Hii babdya, this is you gift!
+            Hi babdya, this is your gift!
           </h1>
           
           <p
             id="gate-description"
             className="text-center text-muted-foreground mb-8"
           >
-            Hmm, it's not going to be that easy. Still, here's your hint: what's the nickname I gave you that always makes you laugh?
+            Hmm, it’s not going to be that easy. Still, here’s your hint: what’s the nickname I gave you that always makes you laugh?
           </p>
 
           <form onSubmit={handleSubmit} className="space-y-6">

@@ -285,7 +285,7 @@ const CardsPage = () => {
       {/* Header */}
       <header className="relative z-10 glass border-b border-glass-border">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-xl font-bold text-foreground">Hii babyyyy</h1>
+          <h1 className="text-xl font-bold text-foreground">Hi babyyy</h1>
           <Button
             onClick={handleReset}
             variant="ghost"
@@ -301,7 +301,7 @@ const CardsPage = () => {
       <main className="relative z-10 py-12">
         <div className="container mx-auto px-4 mb-8">
           <h2 className="text-3xl font-bold text-center mb-2 text-foreground">
-            Beautiful poems by my peach 💚
+            My peach writes the most beautiful poems 💚
           </h2>
           {/* <p className="text-center text-muted-foreground">
             Swipe or drag to browse • Click to expand
@@ -323,7 +323,7 @@ const CardsPage = () => {
           role="region"
           aria-label="Card carousel"
         >
-          <div className="flex gap-6 px-4" style={{ width: "max-content" }}>
+          <div className="flex gap-6 px-4" style={{ width: "max-content", marginTop: "20px" }}>
             {/* Triple cards for seamless infinite loop */}
             {[...CARDS, ...CARDS, ...CARDS].map((card, index) => (
               <Card
