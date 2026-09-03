@@ -9,6 +9,7 @@ import thankyou from "../assets/thankyou.jpg"
 import far from "../assets/far.png"
 import haven from "../assets/haven.png"
 import eye from "../assets/brown.png"
+import theDrama from "../assets/theDrama.jpeg"
 
 
 const SESSION_KEY = "code_validated";
@@ -156,7 +157,7 @@ const CARDS: CardData[] = [
   {
     id: "6",
     title: "Found my room",
-    image: eye,
+    image: theDrama,
     excerpt: "I finally found the door...",
     body: `I finally found the door
     you kept pointing me toward;
