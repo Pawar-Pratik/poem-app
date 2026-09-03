@@ -153,6 +153,45 @@ const CARDS: CardData[] = [
     
     `,
   },
+  {
+    id: "6",
+    title: "Found my room",
+    image: eye,
+    excerpt: "I finally found the door...",
+    body: `I finally found the door
+    you kept pointing me toward;
+    the one I could not see,
+    though you named it word by word.
+
+    You said beyond that door
+    was a room I'd call my own:
+    where solitude was not a lack,
+    and being still could feel like home.
+
+    I understand it now.
+
+    the quiet on the other side,
+    the freedom of my own company,
+    with nowhere left to hide.
+
+    When I stay, I stay by choice;
+    when I leave, I leave the same.
+    I need no hand upon the door
+    to tell me I am worth the name.
+
+    You taught me what no book could teach
+    the door was never locked.
+    The room was never yours to give
+    you only showed me where to knock.
+
+    I may be a slow learner,
+    but I've learned what matters most:
+    I finally see the door you saw
+    and beyond it, I am home.
+
+
+    `,
+  },
 ];
 
 const CardsPage = () => {
